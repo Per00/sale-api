@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sales",
+  "info": {
+    "singularName": "sale",
+    "pluralName": "sales",
+    "displayName": "Sale",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "date"
+    },
+    "aceleration": {
+      "type": "decimal"
+    },
+    "fuel": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "fipe": {
+      "type": "decimal"
+    },
+    "description": {
+      "type": "text"
+    },
+    "brand": {
+      "type": "string"
+    }
+  }
+}
